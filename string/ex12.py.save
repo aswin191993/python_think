@@ -1,0 +1,12 @@
+p=3
+w="abc"
+def rotateword(w,p):
+	pr="a"
+	a="abcdefghijklmnopqrstuvwxyz"
+	for i in w:
+		k=range(25)
+		for j in k: 
+			if i is a[j]:
+				 pr=pr+a[j+p]
+	print pr
+rotateword(w,p)
